@@ -12,5 +12,5 @@ requests==2.31.0
 soupsieve==2.1
 sqlparse==0.4.4
 urllib3==1.26.18
-django-crispy-forms==1.11.2
+django-crispy-forms==1.14.0
 crispy-bootstrap4==2022.1
