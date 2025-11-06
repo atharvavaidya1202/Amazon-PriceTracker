@@ -10,7 +10,7 @@ def get_product_info(url):
     }
 
     response = get(url, headers=headers)
-    soup = BeautifulSoup(response.text, "lxml")
+    soup = BeautifulSoup(response.text, "html.parser")
 
     # --- Product Name ---
     name_elem = soup.select_one("#productTitle")
