@@ -25,7 +25,7 @@ SECRET_KEY = 'fusqcy#*!2bjf-i$syxsn=ty7a^)zx9u3-c0kjk*q-o%)8+xkw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['amazon-pricetracker-1.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
