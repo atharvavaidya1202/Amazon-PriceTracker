@@ -3,5 +3,5 @@ services:
     name: amazon-price-tracker
     env: python
     plan: free
-    buildCommand: pyenv install 3.11.9 && pyenv global 3.11.9 && pip install -r requirements.txt
+    buildCommand: ./render-build.sh
     startCommand: gunicorn amazonPriceTracker.wsgi
